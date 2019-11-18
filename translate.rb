@@ -2,16 +2,16 @@
 class Translate < Formula
   desc "CLI to translate words between languages"
   homepage ""
-  version "0.1.0"
+  version "0.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/yulintan/translate/releases/download/v0.1.0/translate_0.1.0_Darwin_x86_64.tar.gz"
-    sha256 "d7e63bc51992884199569276dae27f4d28eb4a48d080c959a0e399e0c46c958f"
+    url "https://github.com/yulintan/translate/releases/download/v0.1.1/translate_0.1.1_Darwin_x86_64.tar.gz"
+    sha256 "4bc4e980ebaff5f1fcd396ff2942a945c6ebf6093ce0c21a874657769adfebe0"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/yulintan/translate/releases/download/v0.1.0/translate_0.1.0_Linux_x86_64.tar.gz"
-      sha256 "f488fc282b01ed74485ed1b0f24b376d1a7efd1e20f3e23f15a72ad81c98dadb"
+      url "https://github.com/yulintan/translate/releases/download/v0.1.1/translate_0.1.1_Linux_x86_64.tar.gz"
+      sha256 "600e64a090e5de5503ebc3f70c63c2727b4e49a9e2a999a49a1e72597a92e9a0"
     end
   end
 
