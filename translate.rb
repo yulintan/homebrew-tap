@@ -6,11 +6,11 @@ class Translate < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/yulintan/translate/releases/download/v0.1.1/translate_0.1.1_Darwin_x86_64.tar.gz"
+    url "https://github.com/yulintan/trans/releases/download/v0.1.1/translate_0.1.1_Darwin_x86_64.tar.gz"
     sha256 "4bc4e980ebaff5f1fcd396ff2942a945c6ebf6093ce0c21a874657769adfebe0"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/yulintan/translate/releases/download/v0.1.1/translate_0.1.1_Linux_x86_64.tar.gz"
+      url "https://github.com/yulintan/trans/releases/download/v0.1.1/translate_0.1.1_Linux_x86_64.tar.gz"
       sha256 "600e64a090e5de5503ebc3f70c63c2727b4e49a9e2a999a49a1e72597a92e9a0"
     end
   end
